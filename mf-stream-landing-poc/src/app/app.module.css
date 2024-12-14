@@ -1,0 +1,6 @@
+.layout {
+  @apply twcss-flex twcss-flex-col twcss-min-h-screen;
+}
+.layout > section:first-child {
+  flex: 1;
+}

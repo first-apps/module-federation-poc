@@ -1,0 +1,21 @@
+.content {
+  width: 80%;
+  @apply twcss-mx-auto;
+}
+.main {
+  @apply twcss-rounded-s twcss-bg-white twcss-shadow-lg twcss-px-20 twcss-py-10;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    @apply twcss-px-10 twcss-py-5;
+  }
+}
+
+.search {
+  @apply twcss-py-3 !important;
+}
+
+.homeButton {
+  @apply twcss-mt-2;
+}

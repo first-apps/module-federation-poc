@@ -1,0 +1,6 @@
+.footer {
+  @apply twcss-py-5;
+}
+.footerText {
+  @apply twcss-text-center;
+}
